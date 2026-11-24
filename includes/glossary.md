@@ -35,7 +35,7 @@
 *[header]: HTTP isteğinin meta bilgisi — kimlik, format, sürüm bilgisi burada taşınır
 *[HTTPS]: Tarayıcı-sunucu iletişim kuralının şifrelenmiş hali
 *[IDE]: Integrated Development Environment — kod yazma programı (VS Code, PyCharm gibi)
-*[JSON]: JavaScript Object Notation — veri taşıma formatı, `{"ad": "Kemal"}` gibi
+*[JSON]: JavaScript Object Notation — veri taşıma formatı, `{"ad": "Ada"}` gibi
 *[LLM]: Large Language Model — büyük dil modeli; bir sonraki kelimeyi tahmin ederek cevap üreten yapay zeka
 *[LoRA]: Low-Rank Adaptation — fine-tuning'in ucuz ve hızlı versiyonu
 *[MCP]: Model Context Protocol — Claude'un dış sistemlere (Gmail, DB, dosya) erişmek için kullandığı standart protokol

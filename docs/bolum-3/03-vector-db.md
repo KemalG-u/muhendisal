@@ -483,7 +483,7 @@ Platform 5 neden Qdrant'ı default seçiyor:
 
 2. **MCP server yazmak kolay.** Bölüm 6.4'te MCP server örneği Qdrant + Claude birlikte kullanır. Qdrant'ın Python SDK'sı MCP arayüzü ile doğal örtüşür.
 
-3. **Self-host dostu — veri gizliliği pedagojisi.** Kemal Kuralı (platform felsefesi) KVKK hassas veri self-host zorunlu der. Qdrant `docker run` ile kendi VPS'inde çalışır — Pinecone'un aksine.
+3. **Self-host dostu — veri gizliliği pedagojisi.** Platform felsefesi: KVKK hassas veri self-host zorunludur. Qdrant `docker run` ile kendi VPS'inde çalışır — Pinecone'un aksine.
 
 4. **Ücretsiz tier cömert.** Qdrant Cloud 1 GB free cluster verir; öğrenci managed deneyimini **para harcamadan** edinebilir. Pinecone'un free tier'ı teknik olarak var ama çok kısıtlı.
 

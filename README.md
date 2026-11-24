@@ -6,6 +6,8 @@ A free, open **Turkish-language course for becoming an AI engineer** with the An
 
 Türkçe sürüm: [README.tr.md](README.tr.md)
 
+How this differs from [ajanmuhendis](https://github.com/KemalG-u/ajanmuhendis): this repository is the full course (78 pages and four reference projects); ajanmuhendis is only a small extracted backend and dashboard slice and contains no lessons.
+
 ## Why this exists
 
 Turkish AI learning material is mostly either translated documentation or shallow "what is AI" introductions. This course aims at the gap in between: an adult who reads Turkish and wants to build projects on their own. The author wrote it while documenting his own learning, working with Claude as a co-author; the text was directed and reviewed by the author.

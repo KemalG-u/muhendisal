@@ -9,7 +9,7 @@ class User(Base):
     __tablename__ = "users"
     id = Column(Integer, primary_key=True)
     token = Column(String, unique=True, nullable=False, index=True)
-    nick = Column(String, default="Kemal")
+    nick = Column(String, default="Misafir")
     target = Column(String, default="hepsi")  # "vakif" | "kisisel" | "is" | "hepsi"
     created_at = Column(DateTime, server_default=func.now())
     last_seen = Column(DateTime, server_default=func.now(), onupdate=func.now())

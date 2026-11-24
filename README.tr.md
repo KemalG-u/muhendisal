@@ -6,6 +6,8 @@ Anthropic API ile **AI Engineer olmak isteyenler için ücretsiz, Türkçe, aç�
 
 English: [README.md](README.md)
 
+[ajanmuhendis](https://github.com/KemalG-u/ajanmuhendis) deposundan farkı: bu depo kursun kendisidir (78 sayfa ve dört örnek proje); ajanmuhendis yalnız çıkarılmış küçük bir arka uç ve dashboard kesitidir, ders içermez.
+
 ## Neden var
 
 Türkçe AI öğrenme malzemesinin çoğu ya çeviri dökümantasyon ya da yüzeysel "AI nedir" girişleri. Bu kurs aradaki boşluğu hedefler: Türkçe okuyan, kendi başına proje üretmek isteyen yetişkin. Yazar, kendi öğrenme yolculuğunu belgelerken Claude ile birlikte çalıştı; metni yazar yönlendirdi ve gözden geçirdi.

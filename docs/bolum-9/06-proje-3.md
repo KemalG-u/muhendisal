@@ -23,7 +23,7 @@ Platform'un **son pratik imza** sayfası. 9.4 (RAG web servisi) + 9.5 (async age
 
 Üçüncüsü: Bu sayfa **Bölüm 7 teorisini canlı koda bağlar**. 7.1 Claude vision kullanım + 8.3 rate limit + 8.4 structured log + 8.5 retry + 9.1 Docker birlikte tek proje. Platform'un **entegrasyon sınavı**.
 
-Dördüncüsü: **Platform %100** — 67/67 sayfa. Kemal hedefi ("sondan AI Engineer çıkar") pedagojik olarak kapanıyor.
+Dördüncüsü: **Platform %100** — 67/67 sayfa. Platform hedefi ("sondan AI Engineer çıkar") pedagojik olarak kapanıyor.
 
 ## Proje tanımı — Tahta Asistanı
 
@@ -523,7 +523,7 @@ README.md production-grade (4 KB) + 14/15 production checklist dolu + platform s
 <li>**G → H:** 4 CTO kanıtı (AST + ruff + pytest + pin) hepsi yeşil. Bu yüzden **kanıt olmadan iddia geçmez.**</li>
 <li>**H → I:** Maliyet: 1 öğretmen $1/ay, 10 öğretmenlik okul $12/ay, 500 kullanıcı SaaS $600 gelir ~$1900. Bu yüzden **maliyet modeli iş planı temeli.**</li>
 <li>**I → J:** Production checklist 14/15 → GO. Bu yüzden **checklist karar verir.**</li>
-<li>**J → K:** Platform'un 4. çalışır kod + 10. imza sayfa — Kemal hedefi TAM karşılandı. Bu yüzden **her sayfa portföy değeri taşır.**</li>
+<li>**J → K:** Platform'un 4. çalışır kod + 10. imza sayfa — Platform hedefi TAM karşılandı. Bu yüzden **her sayfa portföy değeri taşır.**</li>
 </ol>
 
 <div class="ma-neden-sonuc-sonuc" markdown>

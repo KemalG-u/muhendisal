@@ -133,7 +133,7 @@ cd denemeler
 touch notlarim.txt            # boş dosya oluştur
 
 # --- 5. Dosyaya yazı yaz (2 yol) ---
-echo "Merhaba Kemal" > notlarim.txt    # > içeriği SİLER, yeniden yazar
+echo "Merhaba Ada" > notlarim.txt    # > içeriği SİLER, yeniden yazar
 echo "ikinci satır" >> notlarim.txt    # >> SONUNA ekler
 
 # --- 6. Dosyayı oku ---

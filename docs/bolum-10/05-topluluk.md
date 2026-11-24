@@ -23,7 +23,7 @@
 - **Imposter syndrome gerçek.** İlk işe başlayan junior AI Engineer'ların ~%80'i 3 ay içinde "ben bu işe layık değilim" hissine giriyor. Mentor + peer topluluğu bu hissi kırmak için kritik.
 - **Give first kültürü** — topluluk sana fayda sağlıyor, sen de sağla. Bu sayfayı okuyan kişi 6 ay sonra **mentor** olacak; bu rotasyonun adını koymalı.
 
-İkincisi: Platform **Kemal'in senin için** yazdığı bir ders serisi değil. Kemal CTO ortağı Claude ile birlikte bu platformu **kendi öğrenmesini belgelerken** yazdı. O yolculuk bitti — ama senin yolun başlıyor. Bu sayfa o devri teslim ediyor.
+İkincisi: Platform **yazarın senin için** yazdığı bir ders serisi değil. Yazar, CTO ortağı Claude ile birlikte bu platformu **kendi öğrenmesini belgelerken** yazdı. O yolculuk bitti — ama senin yolun başlıyor. Bu sayfa o devri teslim ediyor.
 
 ## Türkiye AI toplulukları — 2026 manzara
 

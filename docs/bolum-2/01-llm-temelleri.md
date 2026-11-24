@@ -94,7 +94,7 @@ flowchart LR
 <tr><td>Yol A — Console</td><td>Tarayıcıda console.anthropic.com</td><td>Tek kişilik "yeni bir sohbet ekranı". Kod yok. Hızlı test için. **Bu sayfada kullanacağız.**</td></tr>
 <tr><td>Yol B — Python SDK</td><td>Senin bilgisayarında Python script</td><td>`anthropic` kütüphanesi API'ye HTTPS isteği atar. **Bu sayfada kullanacağız.**</td></tr>
 <tr><td>Yol C — Claude Code</td><td>Senin terminalinde</td><td>Claude'un agent versiyonu — kendisi dosya okur, komut çalıştırır. Bölüm 9'da öğrenilecek, bu sayfada sadece görmen için.</td></tr>
-<tr><td>🔑 API Key</td><td>Console'dan alınır, senin ortam değişkeninde saklanır</td><td>"Bu istek gerçekten Kemal'den geliyor" diye API'ye kimlik ispatı. Sızdırılırsa başkası senin kredini harcar.</td></tr>
+<tr><td>🔑 API Key</td><td>Console'dan alınır, senin ortam değişkeninde saklanır</td><td>"Bu istek gerçekten senden geliyor" diye API'ye kimlik ispatı. Sızdırılırsa başkası senin kredini harcar.</td></tr>
 <tr><td>🌐 api.anthropic.com</td><td>Anthropic'in sunucuları (ABD/AB)</td><td>İsteği kabul eder, kimliği doğrular, modele iletir, yanıtı geri paketler. HTTPS zorunlu.</td></tr>
 <tr><td>🧠 Claude Modeli</td><td>Anthropic'in GPU'larında</td><td>Asıl "düşünen" parça. İstek metnini alır, token token yanıt üretir. Sen hangi yoldan gelsen aynı model.</td></tr>
 <tr><td>📊 Sayaç</td><td>Console → Usage sekmesi</td><td>Her çağrıda kaç girdi + çıktı token'ı harcadığın, fatura toplamın, saatlik/dakikalık limitlerin.</td></tr>

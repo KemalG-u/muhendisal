@@ -252,7 +252,7 @@ Repo linkini kaydet: `muhendisal-notlarim/bolum-4/06-langchain/karsilastirma-rep
 </ol>
 
 <div class="ma-neden-sonuc-sonuc" markdown>
-**Sonuç:** Artık iki ayağın var — elden (derin anlayış) ve LangChain (hızlı prototip). Gerçek dünyada mühendis her ikisini de bilen kişi, sadece birini savunan değil. 4.7'de LlamaIndex'e de kısa bakış sonra 4.8'de Vakıf projesi production case'i (Kemal'in gerçek projesi).
+**Sonuç:** Artık iki ayağın var — elden (derin anlayış) ve LangChain (hızlı prototip). Gerçek dünyada mühendis her ikisini de bilen kişi, sadece birini savunan değil. 4.7'de LlamaIndex'e de kısa bakış sonra 4.8'de Vakıf projesi production case'i (yazarın gerçek projesi).
 </div>
 </div>
 

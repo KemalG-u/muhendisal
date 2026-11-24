@@ -23,7 +23,7 @@ Bu sayfa **objektif** test — 15 madde, her biri evet/hayır cevabı, her biri 
 
 İkincisi: Bu sayfa **havacılık disiplin** ile yazıldı. Pilot uçağa binmeden önce 50+ maddelik checklist'ten geçer — bildiği şeyleri bile işaretler. Tek eksik madde kaza sebebi olabilir. AI sistem de benzer — 14/15 madde yeterli değil, **15/15 ise GO**.
 
-Üçüncüsü: Bu sayfa **platform'un imza sayfalarından biri.** İlk imza 9.4 RAG Chatbot portföy. İkinci imza burada — öğrenci tamamladığında Bölüm 8'in kapanışını kanıtlamış olur. Bu iki imza + 3.5 Semantic Search + 9.5 Agent + 9.7 Portföy Paketleme birlikte **Kemal hedefi ("sondan AI Engineer çıkar") objektif kriterleri.**
+Üçüncüsü: Bu sayfa **platform'un imza sayfalarından biri.** İlk imza 9.4 RAG Chatbot portföy. İkinci imza burada — öğrenci tamamladığında Bölüm 8'in kapanışını kanıtlamış olur. Bu iki imza + 3.5 Semantic Search + 9.5 Agent + 9.7 Portföy Paketleme birlikte **Platform hedefi ("sondan AI Engineer çıkar") objektif kriterleri.**
 
 ## Checklist'in mantığı — 5 kategori × 3 madde
 
@@ -537,7 +537,7 @@ Toplam: X/15. GO/NO-GO kararı yazılı.
 </ol>
 
 <div class="ma-neden-sonuc-sonuc" markdown>
-**Sonuç:** Bölüm 8 kapandı — TAM 7/7. Canlıya çıkış **objektif kriter** ile yapılıyor. 15 madde checklist platform'un ikinci imza sayfası (ilki 9.4 RAG portföy). Kemal hedefi ("sondan AI Engineer çıkar") kriterleri daha da netleşti — 2 canlı proje + 15/15 checklist + LinkedIn strateji + topluluk bağlantısı.
+**Sonuç:** Bölüm 8 kapandı — TAM 7/7. Canlıya çıkış **objektif kriter** ile yapılıyor. 15 madde checklist platform'un ikinci imza sayfası (ilki 9.4 RAG portföy). Platform hedefi ("sondan AI Engineer çıkar") kriterleri daha da netleşti — 2 canlı proje + 15/15 checklist + LinkedIn strateji + topluluk bağlantısı.
 </div>
 </div>
 

@@ -304,7 +304,7 @@ print(f"📄 Chunk: {chunks[top_idx][:200]}...")
 | **Hukuki sözleşme / mevzuat** | **Cümle** (küçük chunk) + **Contextual** | Madde-madde aranır, tam atıf kritik |
 | **Sohbet transkripti / e-posta zinciri** | **Cümle** veya rol-bazlı | Konuşmacı sınırı önemli |
 | **Mixed PDF** (tablo + metin + görsel) | **Paragraf** + tablo özel işleme | 4.7'de vision pipeline'a köprü |
-| **Vakıf rehberi (Kemal senaryosu)** | **Paragraf + Contextual** | Karma içerik, muğlak sorular — contextual başlık çok değerli |
+| **Vakıf rehberi (yazarın senaryosu)** | **Paragraf + Contextual** | Karma içerik, muğlak sorular — contextual başlık çok değerli |
 
 **Default önerim:** Emin değilsen **Paragraf + Contextual.** %80 durumda en iyi kalite/maliyet dengesi.
 

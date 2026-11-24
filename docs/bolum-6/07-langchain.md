@@ -415,7 +415,7 @@ Repo linkini kaydet: `muhendisal-notlarim/bolum-6/07-langchain/uc-yol-repo.txt`
 </ol>
 
 <div class="ma-neden-sonuc-sonuc" markdown>
-**Sonuç:** Bölüm 6'nın teknik zirvesi. Üç ayrı mimari akım (ham SDK + Claude Code ekosistemi + LangChain/LangGraph ekosistemi) üzerinde refleks kazandın. Artık bir iş probleminde "hangi araç" sorusu karar matrisiyle cevaplanıyor. Son sayfa (6.8) KarıncaAI production vakası — Kemal'in **gerçek multi-agent orkestrasyon** projesi: karar matrisi "prod'da" nasıl görünür, bu üç SDK'nın hangisine dayandı, neden; 4.8 Vakıf imza sayfasıyla simetri. Bölüm 6'nın kapanış savunması.
+**Sonuç:** Bölüm 6'nın teknik zirvesi. Üç ayrı mimari akım (ham SDK + Claude Code ekosistemi + LangChain/LangGraph ekosistemi) üzerinde refleks kazandın. Artık bir iş probleminde "hangi araç" sorusu karar matrisiyle cevaplanıyor. Son sayfa (6.8) KarıncaAI production vakası — yazarın **gerçek multi-agent orkestrasyon** projesi: karar matrisi "prod'da" nasıl görünür, bu üç SDK'nın hangisine dayandı, neden; 4.8 Vakıf imza sayfasıyla simetri. Bölüm 6'nın kapanış savunması.
 </div>
 </div>
 

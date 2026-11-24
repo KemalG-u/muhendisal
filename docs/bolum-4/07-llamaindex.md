@@ -268,7 +268,7 @@ Repo linkini kaydet: `muhendisal-notlarim/bolum-4/07-llamaindex/uc-yol-repo.txt`
 <div class="ma-sonraki" markdown>
 <div class="ma-sonraki-header">➡️ Sonraki adım</div>
 
-**[4.8 Production RAG (Vakıf Vakası) →](08-production.md)** — Bu platformun yazarı Kemal'in gerçek üretim RAG projesi. 35 gün içinde canlıya alınan bir kurumsal chatbot'un **ham gerçekleri** — neyin çalıştığı, neyin kırıldığı, hangi kararların geri döndüğü.
+**[4.8 Production RAG (Vakıf Vakası) →](08-production.md)** — Bu platformun yazarının gerçek üretim RAG projesi. 35 gün içinde canlıya alınan bir kurumsal chatbot'un **ham gerçekleri** — neyin çalıştığı, neyin kırıldığı, hangi kararların geri döndüğü.
 
 ← [4.6 LangChain](06-langchain.md) &nbsp;|&nbsp; [Bölüm 4 girişi](index.md) &nbsp;|&nbsp; [Ana sayfa](../index.md)
 

@@ -24,7 +24,7 @@
 
 İkincisi: **Vakıf Chatbot normal bir RAG değil — dini bir sorumluluk taşıyor.** Yanlış IBAN söylerse → vakfa 30 bin TL yanlış hesaba gider. Yanlış "vekaletin alındı" derse → bağışçının **kurbanı geçersiz** olur (dini risk). Bu bağlam teknik kararları değiştirir: RAG sadece "iyi" yetmez, **çok dikkatli** olmak zorunda. Bu sayfada nasıl olduğu.
 
-Üçüncüsü: **Solo geliştirici + 40 günde production** gerçeği. Kemal bu projeyi akşamları geliştirdi, test etti, deploy etti — tek başına. Sen de büyük ihtimalle böyle çalışacaksın. Bu sayfa "Google'ın RAG'ını kopyala" değil, **senin koşullarına** uyan bir vaka.
+Üçüncüsü: **Solo geliştirici + 40 günde production** gerçeği. Yazar bu projeyi akşamları geliştirdi, test etti, deploy etti — tek başına. Sen de büyük ihtimalle böyle çalışacaksın. Bu sayfa "Google'ın RAG'ını kopyala" değil, **senin koşullarına** uyan bir vaka.
 
 ## Vakıf Chatbot kısaca — üç paragraf, matematiksiz
 
@@ -172,14 +172,14 @@ flowchart TB
 | 3 | Yurt içi/dış kurban kota rakamları | Vakıf yönetimi | Vakıf toplantısı |
 | 4 | Saha ekibi iletişim bilgileri | Vakıf | Vakıf toplantısı |
 | 5 | Alarm iletişim listesi (tüm telefon numaraları) | Vakıf + yönetim | Vakıf toplantısı |
-| 6 | Test 2 sonrası `%93` hedefi doğrulama | Kemal | API credit yüklendi, çalışır çalışmaz |
-| 7 | Canlı log analizi (`%97 dropout` noktası) | Kemal | Bu hafta |
+| 6 | Test 2 sonrası `%93` hedefi doğrulama | Yazar | API credit yüklendi, çalışır çalışmaz |
+| 7 | Canlı log analizi (`%97 dropout` noktası) | Yazar | Bu hafta |
 
 **Not:** 1-5 arası "teknik değil, insan/organizasyon blocker'ı". Solo geliştiricinin en yorucu kısmı — kod yazmaktan daha uzun. Üretim RAG'ında **%50 zaman iletişimde** geçer. Bu sayfaya sadece kod yazmak için gelenlere uyarı.
 
 ## Bayram sonrası refactor listesi (17 Nisan kaydı)
 
-Kemal bu 8 noktayı **Bayram sonrasına** erteledi — Bayram öncesinde risk almaya değmez:
+Yazar bu 8 noktayı **Bayram sonrasına** erteledi — Bayram öncesinde risk almaya değmez:
 
 1. **Tek sohbette karma kurban tipi** — state machine'in tek kurban tipi sınırlaması. "Merhum annem + 3 sahibi niyetine + 1 vacip" gibi senaryolar için state machine genişlemesi.
 2. **`muhatap_tipi` + `niyet_tipi` sistemlerinin birleştirilmesi** — 7 Nisan'da eklenen iki yeni alan paralel geliştirildi, Bayram sonrası konsolidasyon.
@@ -190,7 +190,7 @@ Kemal bu 8 noktayı **Bayram sonrasına** erteledi — Bayram öncesinde risk al
 7. **`Madde 1` refactor'undaki trigger'ın performansı** — `trg_odemeler_sync` yüksek trafikte lock riski, load testi gerekli.
 8. **Karma kurban tipi upsell akışı genişlemesi** — Test 11 PARTIAL, state machine kısıtı.
 
-**Ders:** Üretimde "Bayram öncesi" = "deploy edilen her şey test edilmeli" demek. Refactor = **riski sonraya ertele, ama listeye yaz**. Bu 8 madde bu sayfada olmasının sebebi: **Kemal 3 ay sonra unutmasın**. RAG projenizde de benzer "dondurma listesi" tutun.
+**Ders:** Üretimde "Bayram öncesi" = "deploy edilen her şey test edilmeli" demek. Refactor = **riski sonraya ertele, ama listeye yaz**. Bu 8 madde bu sayfada olmasının sebebi: **yazar 3 ay sonra unutmasın**. RAG projenizde de benzer "dondurma listesi" tutun.
 
 <div class="ma-anthropic-oz" markdown>
 <div class="ma-anthropic-oz-header">📖 Anthropic bu konuyu nasıl anlatıyor — öz</div>
@@ -203,7 +203,7 @@ Vakıf Chatbot **Anthropic'in önerdiği her şeyi** yapmıyor — çünkü ger�
 
 **3. Prompt caching aktif — ana tasarruf kaynağı.** 18K karakter sistem prompt + her kullanıcı cümlesi küçük değişken = %90 cache hit. Aylık maliyet Cached olmadan ~$300, cache ile ~$40. Tek satır `cache_control` = projenin ekonomik yaşayabilirliği.
 
-**4. LLM-as-judge eval uygulandı — ama insan kontrolü hâlâ şart.** 30 senaryo × 3 tekrar × Haiku judge. Ama her düzeltmede Kemal **son 3 örneği insan gözüyle** okuyor. "Rakam iyi ama nüans kayıp" hissiyle yakalanan 5+ hata — judge'ın görmediği, insanın gördüğü şeyler.
+**4. LLM-as-judge eval uygulandı — ama insan kontrolü hâlâ şart.** 30 senaryo × 3 tekrar × Haiku judge. Ama her düzeltmede yazar **son 3 örneği insan gözüyle** okuyor. "Rakam iyi ama nüans kayıp" hissiyle yakalanan 5+ hata — judge'ın görmediği, insanın gördüğü şeyler.
 
 ??? info "Teknik detay — isteyene (parameter adları, mekanikler, edge case'ler)"
 
@@ -215,13 +215,13 @@ Vakıf Chatbot **Anthropic'in önerdiği her şeyi** yapmıyor — çünkü ger�
 
     **Trigger `trg_odemeler_sync`.** Madde 1 refactor'unda eklendi. `odemeler` tablosuna INSERT → `odeme_takip.gelen_tutar` otomatik SUM + durum hesaplama + `kurban_kayitlari.odeme_durumu` cache update. DB seviyesinde atomik = race condition yok.
 
-    **Guardrail 3 katman ban.** 1. katman: anlık (bu mesaj yoksayılır). 2. katman: 24 saat ban (sürekli saldırı). 3. katman: kalıcı ban (kalıcı kötü niyet). Escalation Kemal veya vakıf adminine email.
+    **Guardrail 3 katman ban.** 1. katman: anlık (bu mesaj yoksayılır). 2. katman: 24 saat ban (sürekli saldırı). 3. katman: kalıcı ban (kalıcı kötü niyet). Escalation yazara veya vakıf adminine email.
 
     **Anthropic rate limit marjı.** Tier 2 hesap → 1000 RPM. Vakıf projesi peak trafiği ~30 RPM → 33x marj. Bayram gününde 10x trafik beklentisi bile sınırın altında kalır.
 
     **Claude Sonnet 4.5 → 4.6 kararı.** Sonnet 4.5 Vakıf projesinde test edildi, 4.6 çıktığında A/B yapıldı — hem kalite farkı hem maliyet farkı ölçüldü. Opus 4.7 için: fiyat-performans oranı Vakıf projesi için gereksiz; Sonnet 4.6 yetiyor.
 
-    **Bilgi bankası değişim yönetimi.** 16 MD dosya git altında. Pull request → code review (Kemal + vakıf yetkilisi) → main'e merge → pm2 restart. Dev ortamda preview sonra prod.
+    **Bilgi bankası değişim yönetimi.** 16 MD dosya git altında. Pull request → code review (yazar + vakıf yetkilisi) → main'e merge → pm2 restart. Dev ortamda preview sonra prod.
 
 <div class="ma-anthropic-oz-kaynak" markdown>
 **Kaynak:** [Anthropic — Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) (EN, ~20 dk). Anthropic'in üretim AI ürünleri için "karmaşıklık ekleme" yerine "sadelik tutma" tezi. Vakıf kararlarıyla birebir örtüşür. **Pekiştirme:** [platform.claude.com — Prompt Caching best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-caching) — Vakıf cache stratejisinin teorisi.

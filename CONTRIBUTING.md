@@ -91,7 +91,7 @@ S["👤 Sen<br/>(bilgisayarın başında)"]    ← YANLIŞ (br escape olur)
 
 **Sonuç:** Kullanıcı o kaynağa tıklamasa bile konuyu kavrıyor. Tıklarsa zaten hazır — yabancılık çekmiyor.
 
-**Araştırma yükümlülüğü:** Bu özeti yazmadan önce Kemal kuralı 11 uygulanır — 3+ `web_search` + 2 `web_fetch`. Tahmin ile özetleme. Kaynak yoksa açıkça "bu konuda Anthropic resmi kaynağı henüz yok, alternatif: [X]" yaz.
+**Araştırma yükümlülüğü:** Bu özeti yazmadan önce 3+ `web_search` + 2 `web_fetch` yapılır. Tahmin ile özetleme. Kaynak yoksa açıkça "bu konuda Anthropic resmi kaynağı henüz yok, alternatif: [X]" yaz.
 
 ---
 
@@ -243,16 +243,16 @@ Bilmediğim bir konuda sayfa yazmadan önce (veya Anthropic öz bloğu için) **
 3. Pyodide/SDK/CLI konuları için: **`anthropics/courses` GitHub repo'suna bak** (notebook örnekleri genellikle en temiz kaynak)
 4. Sentezi yap → sayfaya yaz → kaynakları anthropic-oz bloğuna koy
 
-**SEO blog yasak** (Kemal kuralı 15). Forum sadece doğrulama için, tek başına kaynak değil.
+**SEO blog yasak** (proje kuralı). Forum sadece doğrulama için, tek başına kaynak değil.
 
 ---
 
 ## Kural 9 — Türkçe Dil Kuralı
 
 - **İngilizce terim sadece teknik zorunluluk** (örn: `messages.create`, `max_tokens`, `transformer`). İlk geçişinde Türkçe parantez ver: "transformer (dönüştürücü mimari)".
-- Cümleler doğal Türkçe: "yapman gerek" yerine "yaparsın", "olabilir" yerine "olur" (Kemal preference).
-- "duruma göre değişir" yasak — taraf seç (Kemal preference).
-- "Harika soru" / övgü yok (Kemal preference).
+- Cümleler doğal Türkçe: "yapman gerek" yerine "yaparsın", "olabilir" yerine "olur" (proje tercihi).
+- "duruma göre değişir" yasak — taraf seç (proje tercihi).
+- "Harika soru" / övgü yok (proje tercihi).
 - "Bir uzmana danış" yasak — kurstaki bilgiyi ver veya "bu konuda resmi kaynak yetersiz" de.
 
 ---
@@ -395,7 +395,7 @@ Bu sayfa bu kurallar kitabının canlı uygulamasıdır. Yeni sayfa yazmaya baş
 ## Güncelleme Geçmişi
 
 - **v3.2** (22 Nis 2026) — Kural 12 (5-soru başlangıç testi) eklendi, glossary + `hooks/pre_build.py` devreye alındı (45 terim auto-inject), pilot sayfa (`bolum-2/01-llm-temelleri.md`) v3.2 yeniden yazıldı.
-- **v3.1** (21 Nis 2026) — Kemal pilot kontrol sonrası: `<br/>` → `\n` Mermaid fix, "yabancı testi" (Kural 5) eklendi, özel sayfa tipleri (Kural 7) netleştirildi.
-- **v3.0** (21 Nis 2026) — Kemal "yabancılık öldür" yönergesi: 4 zorunlu blok (ekosistem + anthropic-oz + dış link + neden-sonuc).
+- **v3.1** (21 Nis 2026) — Yazar pilot kontrol sonrası: `<br/>` → `\n` Mermaid fix, "yabancı testi" (Kural 5) eklendi, özel sayfa tipleri (Kural 7) netleştirildi.
+- **v3.0** (21 Nis 2026) — Yazarın "yabancılık öldür" yönergesi: 4 zorunlu blok (ekosistem + anthropic-oz + dış link + neden-sonuc).
 - **v2.0** (21 Nis 2026) — Kapsam v2 onayı: persona etiketleri, çıktı kanıtı, Anthropic köprüsü.
 - **v1.0** (20 Nis 2026) — İlk taslak (64 iskelet sayfa açıldı).

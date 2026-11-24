@@ -27,7 +27,7 @@
 
 **Şablon = sabit metin + değişken yerler.** "Merhaba {{ad}}, bugün {{tarih}} ve seni özledim." gibi. `{{ad}}` ve `{{tarih}}` placeholder'lar, çağırırken gerçek değerlerle doldurulur. Aynı şablon binlerce kez farklı verilerle kullanılır.
 
-**Üç Python yöntemi:** (1) f-string — `f"Merhaba {ad}"`, en hızlı, basit; (2) `string.Template` — `Template("Merhaba $ad").substitute(ad="Kemal")`, biraz daha güvenli (yanlış parametre = hata); (3) Jinja2 — `Template("Merhaba {{ ad }}").render(ad="Kemal")`, **en güçlü** (loop, condition, filter destekler). Production projede genellikle **Jinja2.**
+**Üç Python yöntemi:** (1) f-string — `f"Merhaba {ad}"`, en hızlı, basit; (2) `string.Template` — `Template("Merhaba $ad").substitute(ad="Ada")`, biraz daha güvenli (yanlış parametre = hata); (3) Jinja2 — `Template("Merhaba {{ ad }}").render(ad="Ada")`, **en güçlü** (loop, condition, filter destekler). Production projede genellikle **Jinja2.**
 
 **Anthropic Console'da Prompt Builder** görsel arayüzde `{{variable}}` yer tutucularıyla şablon hazırlamana izin verir. Test sekmesinde değişkenleri doldurup Claude'u denersin. Üretim API çağrısında ise yerleştirmeyi **istemci tarafında** (Jinja2 / f-string) yaparsın; Messages API'sinin doğrudan "variables" parametresi yoktur. Caching ile uyum: sabit talimat + sistem promptu `cache_control` ile işaretlenir, değişken kısım her çağrıda yeniden gönderilir.
 

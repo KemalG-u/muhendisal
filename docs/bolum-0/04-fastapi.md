@@ -161,13 +161,13 @@ Test 3 — **curl ile POST** (yeni terminal aç, venv aktive et):
 ```bash
 curl -X POST http://localhost:8000/echo \
   -H "Content-Type: application/json" \
-  -d '{"mesaj":"Merhaba FastAPI", "kullanici":"Kemal"}'
+  -d '{"mesaj":"Merhaba FastAPI", "kullanici":"Ada"}'
 ```
 
 Beklenen çıktı:
 
 ```json
-{"aldim":"Merhaba FastAPI","senden":"Kemal","karakter_sayisi":15}
+{"aldim":"Merhaba FastAPI","senden":"Ada","karakter_sayisi":15}
 ```
 
 **Burada olan nedir (diyagram referansı):** curl → uvicorn (:8000) → FastAPI app → `/echo` route → Pydantic `Soru` doğrulaması → `mesaji_yansit` fonksiyonu → JSON cevap → curl'e döndü. Diyagramın tüm akışı 15 satır kodda çalıştı.
