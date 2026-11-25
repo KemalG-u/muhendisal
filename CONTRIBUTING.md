@@ -364,7 +364,6 @@ Cevaplar dosyanın **en tepesindeki `ma-meta` bloğunda** zaten yer tutar (perso
 
 ## Pilot Sayfa — Canlı Referans
 
-**URL:** https://wiki.oluk.org/platform/bolum-2/01-llm-temelleri/
 **Dosya:** `docs/bolum-2/01-llm-temelleri.md` (v3.2, 18.9 KB)
 **Sayfa tipi:** Normal (Tip olmayan — standart)
 

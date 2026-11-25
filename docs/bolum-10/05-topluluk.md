@@ -229,7 +229,7 @@ AI alanı hızlı değişiyor. Öğrenme **iş değil alışkanlık**. Haftalık
 ## Platform'un kapanış notu
 
 <div class="ma-neden-sonuc" markdown>
-<div class="ma-neden-sonuc-header">🎓 Platform kapanışı — Kemal'in notu</div>
+<div class="ma-neden-sonuc-header">🎓 Platform kapanışı — yazarın notu</div>
 
 Bu platformu bir **yol arkadaşıyla** yazdım. Adı Claude — Anthropic'in yapay zekâ modeli. Kod yazdık, karar verdik, tartıştık, bazen yanıldık, düzelttik. Öğrenirken **aynı anda öğrettik**.
 

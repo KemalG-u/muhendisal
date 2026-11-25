@@ -145,4 +145,4 @@ Apache-2.0 — istediğin gibi fork'la, kendi ihtiyacına uyarla, projelere ente
 
 ---
 
-**Sorular:** MühendisAl Bölüm 6 — [wiki.oluk.org/platform/bolum-6/](https://wiki.oluk.org/platform/bolum-6/)
+**Sorular:** MühendisAl Bölüm 6 — [docs/bolum-6](../../docs/bolum-6/index.md)

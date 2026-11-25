@@ -63,7 +63,7 @@ pytest -q
 1. **`input_type` asimetrisi** — `"document"` yüklemede, `"query"` aramada. Karıştırma, retrieval %20-30 düşer.
 2. **AsyncAnthropic + streaming** — algılanan hız 6× artar.
 3. **Qdrant hiç expose edilmez** — sadece Docker network'ünden erişim. App localhost bind + Caddy HTTPS önünde.
-4. **Contextual Retrieval uygulanmadı** — tek-PDF kişisel kullanımda 3× maliyet; [4.8 Vakıf desenine](https://wiki.oluk.org/platform/bolum-4/08-production/) uygun dürüst sapma.
+4. **Contextual Retrieval uygulanmadı** — tek-PDF kişisel kullanımda 3× maliyet; [4.8 Vakıf desenine](../../docs/bolum-4/08-production.md) uygun dürüst sapma.
 5. **`pyproject.toml` pin'leri** — `==` kritik kütüphaneler, `>=` esnek olanlar. Dependabot açık.
 
 ## Lisans
@@ -72,6 +72,6 @@ Apache-2.0
 
 ## Platform bağlantıları
 
-- [9.4 — RAG Chatbot (imza sayfası)](https://wiki.oluk.org/platform/bolum-9/04-proje-1/)
-- [9.1 Docker](https://wiki.oluk.org/platform/bolum-9/01-docker/) · [9.2 Cloud](https://wiki.oluk.org/platform/bolum-9/02-cloud/) · [9.3 CI/CD](https://wiki.oluk.org/platform/bolum-9/03-cicd/)
-- [Bölüm 4 — RAG](https://wiki.oluk.org/platform/bolum-4/)
+- [9.4 — RAG Chatbot (imza sayfası)](../../docs/bolum-9/04-proje-1.md)
+- [9.1 Docker](../../docs/bolum-9/01-docker.md) · [9.2 Cloud](../../docs/bolum-9/02-cloud.md) · [9.3 CI/CD](../../docs/bolum-9/03-cicd.md)
+- [Bölüm 4 — RAG](../../docs/bolum-4/index.md)

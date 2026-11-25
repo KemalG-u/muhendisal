@@ -24,7 +24,7 @@ Turkish AI learning material is mostly either translated documentation or shallo
 
 ## Quick start
 
-Read online: the author's deployment is at https://wiki.oluk.org/platform/ (not checked at release time; it may be offline).
+Read online: there is no public deployment at the moment; build the site yourself as shown below.
 
 Build the site yourself:
 

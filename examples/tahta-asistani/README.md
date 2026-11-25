@@ -126,7 +126,7 @@ pytest -v
 ## Platform bağlantısı
 
 Bu referans proje **MühendisAl Bölüm 9.6 İMZA** sayfasının kodu.  
-Platform: [wiki.oluk.org/platform/bolum-9/06-proje-3/](https://wiki.oluk.org/platform/bolum-9/06-proje-3/)
+Platform: [docs/bolum-9/06-proje-3](../../docs/bolum-9/06-proje-3.md)
 
 Kullanılan bölümler:
 - Bölüm 7.1 — Claude vision (base64 + prompt engineering)

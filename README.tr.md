@@ -24,7 +24,7 @@ Türkçe AI öğrenme malzemesinin çoğu ya çeviri dökümantasyon ya da yüze
 
 ## Hızlı başlangıç
 
-Çevrim içi okuma: yazarın yayını https://wiki.oluk.org/platform/ adresinde (yayın sırasında kontrol edilmedi; kapalı olabilir).
+Çevrim içi okuma: şu anda herkese açık bir yayın yok; siteyi aşağıdaki gibi kendiniz derleyin.
 
 Siteyi kendin derle:
 

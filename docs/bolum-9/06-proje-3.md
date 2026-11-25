@@ -438,7 +438,7 @@ Bu yola giderseniz Anthropic Enterprise ile konuşun — akademik kullanım içi
 ### MühendisAl referansı
 
 Bu proje MühendisAl platform'un 9.6 İMZA sayfasının kodudur:
-- **Platform:** https://wiki.oluk.org/platform/
+- **Sayfa:** `docs/bolum-9/06-proje-3.md`
 - **Repo:** `examples/tahta-asistani/`
 - **Commit tarihi:** 2026-04-23
 - **4 CTO kanıtı geçti:** AST + ruff + pytest 14/14 + pin
